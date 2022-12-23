@@ -1,5 +1,5 @@
-﻿Console.Write("Введите имя пользователя: ");
-string username = Console.ReadLine();
+Console.Write("Введите имя пользователя: ");
+string username = Console.ReadLine(); // Possible null assignment.
 
 if(username.ToLower() == "марина")
 {
